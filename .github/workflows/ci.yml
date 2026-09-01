@@ -30,5 +30,8 @@ jobs:
         run: pnpm test
       - name: Build
         run: pnpm build
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.10.5"
       - name: Terraform format check
         run: terraform fmt -check -recursive infrastructure
