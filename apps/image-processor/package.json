@@ -1,0 +1,12 @@
+{
+  "name": "@serverless-image-pipeline/image-processor",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.883.0",
+    "@aws-sdk/client-dynamodb": "^3.883.0",
+    "@serverless-image-pipeline/contracts": "workspace:*"
+  },
+  "scripts": { "build": "esbuild src/handler.ts --bundle --platform=node --target=node24 --format=esm --outfile=dist/handler.mjs" }
+}
