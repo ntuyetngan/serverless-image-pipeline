@@ -10,7 +10,10 @@ export default tseslint.config(
     files: ['**/*.ts'],
     languageOptions: {
       globals: { ...globals.node },
-      parserOptions: { projectService: true, tsconfigRootDir: import.meta.dirname }
-    }
-  }
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
+  },
 );

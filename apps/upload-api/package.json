@@ -8,5 +8,7 @@
     "@serverless-image-pipeline/contracts": "workspace:*",
     "zod": "^4.1.5"
   },
-  "scripts": { "build": "esbuild src/handler.ts --bundle --platform=node --target=node24 --format=esm --outfile=dist/handler.mjs" }
+  "scripts": {
+    "build": "esbuild src/handler.ts --bundle --platform=node --target=node24 --format=esm --outfile=dist/handler.mjs"
+  }
 }

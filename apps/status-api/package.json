@@ -7,5 +7,7 @@
     "@aws-sdk/client-dynamodb": "^3.883.0",
     "@serverless-image-pipeline/contracts": "workspace:*"
   },
-  "scripts": { "build": "esbuild src/handler.ts --bundle --platform=node --target=node24 --format=esm --outfile=dist/handler.mjs" }
+  "scripts": {
+    "build": "esbuild src/handler.ts --bundle --platform=node --target=node24 --format=esm --outfile=dist/handler.mjs"
+  }
 }
