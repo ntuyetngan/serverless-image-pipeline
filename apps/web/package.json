@@ -1,0 +1,9 @@
+{
+  "name": "@serverless-image-pipeline/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node -e \"console.log('Web app placeholder: no framework selected yet')\""
+  }
+}
